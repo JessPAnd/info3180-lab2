@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="profile">
+    <img src="{{ url_for('static', filename='app/static/cat.png') }}" alt="Profile Photo">
+    <h1>Jessica Anderson</h1>
+    <p>@jesspand</p>
+    <p>Saint Andrew, Jamaica</p>
+    <p>Joined: {{ date_joined }}</p>
+    <p> Living life to the fullest. #Yippie!!!!!</p>
+    <div class="stats">
+        <p>Posts: 1000</p>
+        <p>Followers: 10</p>
+        <p>Following: 3007</p>
+    </div>
+    <button class="follow-button">Follow</button>
+</div>
+{% endblock %}
