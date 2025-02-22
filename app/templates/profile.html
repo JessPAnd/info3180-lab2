@@ -2,12 +2,14 @@
 
 {% block main %}
 <div class="profile">
-    <img src="{{ url_for('static', filename='app/static/cat.png') }}" alt="Profile Photo">
+    <img src="{{ url_for('static', filename='app\static\cat.png') }}" alt="Profile Photo">
     <h1>{{ name }}</h1>
     <p>@jesspand</p>
     <p>Saint Andrew, Jamaica</p>
     <p>Joined: {{ date_joined }}</p>
-    <p> Living life to the fullest. #Yippie!!!!!</p>
+    <div class="bio">
+        <p>Living life to the fullest. #Yippie!!!!!</p>
+    </div>
     <div class="stats">
         <p>Posts: 1000</p>
         <p>Followers: 10</p>

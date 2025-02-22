@@ -24,13 +24,20 @@ body {
 
 .profile p {
     font-size: 18px;
-    color: #ffffff;
+    color: #747474;
+}
+
+.profile .bio, .profile .stats {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000;
 }
 
 .profile .stats {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
 }
 
 .profile .follow-button {
@@ -43,5 +50,5 @@ body {
 }
 
 .profile .follow-button:hover {
-    background-color: #094d1d;
+    background-color: #2e4735;
 }
