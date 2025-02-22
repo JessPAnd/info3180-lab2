@@ -3,7 +3,7 @@
 {% block main %}
 <div class="profile">
     <img src="{{ url_for('static', filename='app/static/cat.png') }}" alt="Profile Photo">
-    <h1>Jessica Anderson</h1>
+    <h1>{{ name }}</h1>
     <p>@jesspand</p>
     <p>Saint Andrew, Jamaica</p>
     <p>Joined: {{ date_joined }}</p>
